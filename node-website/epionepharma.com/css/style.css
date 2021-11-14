@@ -1,0 +1,1137 @@
+/*
+
+New Event
+
+http://www.templatemo.com/tm-486-new-event
+
+*/
+
+body {
+		background: #ffffff;
+        font-family: calibri!important;
+		 font-size: 16px!important;
+		text-align: justify;
+    font-style: normal;
+		font-weight: 400;
+		color:#000;
+    line-height: 24px;
+}
+
+
+/*---------------------------------------
+    Typorgraphy              
+-----------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+}
+
+h3,h5 {
+  font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h3 {
+    line-height: 36px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #fff;
+    letter-spacing: 0;
+    padding: 5px;
+}
+
+h5 {
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+p {
+    color: #171717;
+    letter-spacing: 0.1px;
+}
+
+#footer a {
+  text-decoration: none !important;
+  outline: none;
+  color:#e9efc7!important;
+}
+
+
+/*---------------------------------------
+    General               
+-----------------------------------------*/
+
+
+#overview{
+padding-top: 2rem;
+    padding-bottom: 4rem;
+	margin-top:2rem;
+	background-color:#f8f8f8;
+}
+#overviewTop{
+
+}
+
+#footer{padding-top: 4rem;}
+#detail,
+#VisinMission, #sponsors,
+#footer {
+  text-align: center;
+}
+.pb-40{padding-bottom: 4rem;}
+#overview h3,
+#detail h3, #video h3,
+#register h3,
+#venue h3,
+#contact h3 {
+    padding-bottom: 12px;
+}
+
+#intro .btn,
+#contact .btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-top: 42px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#intro .btn-danger,
+#contact .btn-danger {
+    background: #f2545f;
+    border-color: transparent;
+}
+
+#contact .btn {
+  border-radius: 100px;
+}
+
+#intro .btn-danger:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#contact .btn-danger:hover {
+  background: #222;
+}
+
+#intro .btn-default:hover {
+    background: #ffffff;
+    color: #333333;
+    border-color: transparent;
+}
+
+.parallax-section {
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+/*---------------------------------------
+    Preloader section              
+-----------------------------------------*/
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+			
+			
+.sk-rotating-plane {
+  width: 360px;
+  height: 432px;
+ 
+  
+  background: url('../images/epion-Ani.png')no-repeat;
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    margin-top: -215px;
+    margin-left: -130px;
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    @-ms-keyframes spin { 
+        from { 
+            -ms-transform: rotate(0deg); 
+        } to { 
+            -ms-transform: rotate(360deg); 
+        }
+    }
+    @-moz-keyframes spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(360deg); 
+        }
+    }
+    @-webkit-keyframes spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(360deg); 
+        }
+    }
+    @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+}
+
+/*---------------------------------------
+    Navigation Links section              
+-----------------------------------------*/
+.custom-navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 40px;
+}
+
+.custom-navbar .nav li a {
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-navbar .nav li a:hover {
+    background: transparent;
+    color: #66ccff;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+    background-color: transparent;
+    color: #66ccff;
+}
+
+.custom-navbar .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+    background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+    background: #ffffff;
+    border-color: transparent;
+}
+
+
+@media(min-width:768px) {
+    .custom-navbar {
+        padding: 5px 0 10px 0;
+        border-bottom: 0;
+        background-color: #fff;
+    }
+    .custom-navbar.top-nav-collapse {
+      
+       box-shadow: 0 5px 10px -10px rgb(0 0 0 / 60%);
+    }
+
+}
+.collapse{display: block;}
+.topmar{margin-top:112px;}
+.topmar1{margin-top:50px;}
+
+/*---------------------------------------
+    Intro section              
+-----------------------------------------*/
+#intro {
+    background: url('../images/HomeBanner.jpg') fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  
+    height: 100vh;
+    text-align: center;
+	margin-top: 10%;
+}
+
+#intro h3 {
+  letter-spacing: 2px;
+}
+
+
+
+/*---------------------------------------
+   Overview  section              
+-----------------------------------------*/
+#overview img {
+  position: relative;
+ 
+}
+
+/*---------------------------------------
+    Detail section              
+-----------------------------------------*/
+#detail {
+    background: #222;
+    color: #ffffff;
+}
+
+#detail .fa {
+  color: #f2545f;
+  font-size: 48px;
+}
+
+/*---------------------------------------
+    Video section              
+-----------------------------------------*/
+#video iframe {
+  border: none;
+}
+
+
+
+/*---------------------------------------
+   VisinMission section              
+-----------------------------------------*/
+.VisinMission {
+    background: #f9f9f9;
+}
+
+#VisinMission h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+	padding: 20px;
+    color: #9bce1c;
+	font-weight: 600;
+}
+#VisinMission p {
+    padding: 10px 0px;
+    text-align: left;
+}
+#VisinMission h6 {
+  color: #666;
+  margin-top: 4px;
+}
+
+#VisinMission img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 260px;
+ 
+}
+
+#VisinMission .col-md-3 {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+}
+
+#VisinMission .VisinMission-wrapper {
+    
+    padding-bottom: 22px;
+}
+
+
+
+/*---------------------------------------
+   Program section              
+-----------------------------------------*/
+#program h4 {
+    color: #808080;
+    font-size: 12px;
+}
+
+#program h3 {
+  margin-top: 16px;
+}
+
+#program .program-divider {
+    border: 1px solid #f9f9f9;
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+
+#program span {
+    padding-right: 12px;
+}
+
+#program img {
+  border-radius: 50%;
+}
+
+.nav-tabs {
+  margin-bottom: 20px;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+  color: #000000;
+  font-weight: 600;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: none;
+  border-radius: 0px;
+}
+.nav-tabs > li > a:hover {
+  background-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #f2545f;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: #999;
+}
+.tab-content {
+  padding-top: 20px;
+}
+
+
+
+/*---------------------------------------
+    Regsiter section              
+-----------------------------------------*/
+#register {
+    background: url('../images/register-bg.jpg/') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+
+#register .form-control {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+#register input {
+  height: 45px;
+}
+
+#register input[type="submit"] {
+  background: #f2545f;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+#register input[type="submit"]:hover {
+  background: #ffffff;
+  color: #222;
+}
+
+
+
+/*---------------------------------------
+   Faq section              
+-----------------------------------------*/
+#faq {
+  background: #f9f9f9;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+#faq .panel-group {
+  margin-top: 32px;
+}
+
+#faq .panel-group .panel {
+  margin-bottom: 8px;
+}
+
+#faq .panel-default {
+  border: none;
+}
+
+#faq .panel-default>.panel-heading {
+  background: #f0f0f0;
+  color: #505050;
+}
+
+#faq .panel-heading {
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top: none;
+  padding-top: 22px;
+  padding-left: 32px;
+  padding-bottom: 22px;
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"] {
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
+  content: "-";
+  display: block;
+  position: absolute;
+  line-height: 1;
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
+  content: "+";
+}
+
+/*---------------------------------------
+   Venue section              
+-----------------------------------------*/
+#venue {
+    background: url('../images/venue-bg.jpg/') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+#venue p {
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+
+/*---------------------------------------
+   Sponsors section              
+-----------------------------------------*/
+#sponsors img {
+  margin-top: 18px;
+}
+
+/*---------------------------------------
+   Contact section              
+-----------------------------------------*/
+#contact {
+    background: url('../images/contact-bg.jpg/') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#contact .contact_des {
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+#contact .contact_detail {
+  background: #ffffff;
+  padding: 5rem 5rem 12rem 5rem;
+}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 16px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999;
+}
+
+#contact input {
+  height: 45px;
+}
+
+#contact input[type="submit"] {
+  background: #222;
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+  background: #f2545f;
+}
+
+
+
+/*---------------------------------------
+   Footer section              
+-----------------------------------------*/
+footer {
+  background-attachment: fixed;
+}
+
+
+
+/* Back top */
+.go-top {
+  background-color: #8fce00;
+  bottom: 2em;
+  right: 2em;
+  color: #ffffff;
+  font-size: 32px;
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.go-top:hover {
+    background:#024a19;
+    color: #ffffff;
+}
+
+
+/*---------------------------------------
+   Social icon             
+-----------------------------------------*/
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    color: #666;
+    border-radius: 100px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-icon li a:hover {
+    background: #9ad01a;
+    color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+   Responsive styles            
+-----------------------------------------*/
+@media (max-width: 980px) {
+
+ 
+
+  .custom-navbar .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .custom-navbar .nav li a {
+    font-size: 11px;
+	line-height: 20px;
+  }
+
+  #intro { height: 65vh; }
+
+  #video iframe {
+    margin-top: 42px;
+  }
+
+  #contact .contact_detail {
+  background: #ffffff;
+  padding: 10rem 3rem 10rem 5rem;
+}
+
+}
+
+@media (max-width: 768px) {
+
+  .custom-navbar .navbar-brand {
+    line-height: 20px;
+  }
+
+  #overview img,
+  #detail .col-md-4,
+  #register form {
+    padding-top: 32px;
+  }
+
+  .nav-tabs > li > a {
+    font-size: 13px;
+  }
+
+  #program img {
+    padding-bottom: 32px;
+  }
+
+  #sponsors img {
+    padding-top: 22px;
+  }
+
+  #contact .contact_detail {
+    margin-top: 82px;
+  }
+  
+  .section-title {
+    margin-bottom: 32px;
+    text-align: center;
+    background-color: #04bbf0;
+	background-image: linear-gradient(to bottom right,#00b0f9,#04bbf0);
+   min-width: 40%;
+	max-width:80%;
+    margin: 0 auto;
+    border-radius: 15px;
+	    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	    margin-bottom: 4rem;
+    
+}
+.section-title  h3{
+color:#fff;
+font-size:18px;
+padding: 8px;
+}
+
+}
+
+@media (max-width: 760px) {
+
+.Innermarpad{
+  margin:0px 10px;
+  padding: 5px;
+  margin-top: 0%;
+}
+
+#EagleView ul li {
+    padding-bottom: 10px;
+}
+#EagleView ul  {
+    padding-left: 20px;
+}
+
+.lg-padding-six-lr {
+    padding-left: 3%;
+    padding-right: 3%;
+	float:left;
+}
+.overlap-section {
+    margin-top: -10%;
+    position: relative;
+	 
+}
+.whiteTopbg{
+background-color:#fff;
+    padding: 25px 25px 15px 25px;
+float:left;
+width:100%;
+}
+
+  #intro {
+    height: 100vh;
+  }
+  
+ .bg-turquoise {
+    background-color: #064817;
+}
+.bg-dark-footer {
+    background-color: #141414;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+
+}
+
+.bannerhed{
+    color: #333;
+   
+    text-align: center;
+    margin-top: 25%;
+}
+.bannerhed h1{
+color: #8fce00;
+    font-size: 5rem;
+	font-weight:600;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.bannerhed h2{
+color: #03491a;
+    font-size: 3rem;
+	font-weight:600;
+	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+@media screen and (min-width: 600px) {
+.navbar-default {
+    background-color: #fff!important;
+    border-color: #fff!important;
+}
+
+ .mobicon {
+  display:none;
+  }
+
+
+.mobicon{
+ position:absolute;
+ right:20px;
+ top:10px;
+}
+.site-logo img {
+    width: 15rem;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.lg-padding-six-lr {
+    padding-left: 6%;
+    padding-right: 6%;
+	
+}
+.overlap-section {
+    margin-top: -10%;
+    position: relative;
+	 
+}
+
+}
+
+.outerimg{
+ margin-top: 5%;
+}
+.bg-turquoise {
+   background-color: #064817;
+}
+.bg-dark-footer {
+    background-color: #141414;
+}
+.padding-30px-tb {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.bg-dark-footer p{
+color:#fff;
+}
+#ReserchDevelop img{
+
+ width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+
+}
+#Manufacturing img{
+
+ width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+
+}
+#footer  h4{color:#9bce1c;}
+
+#footer  p{color:#fff;}
+.keyperson{
+ background-color: #57c9ea; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #57c9ea, #b2e2f6);
+
+}
+#EagleView{background: #fdfdfd;}
+#ReserchDevelop{background: #eff3f6;}
+.epionBrand{background-color: #f7f7f7;}
+.epionProduct{background-color: #fff;}
+
+.lightbox{
+background-color:rgba(255,255,255,0.5);
+padding:2rem 2rem;
+}
+#EagleView ul li{
+	padding-bottom:10px;
+}
+#EagleView ul li:before{
+width:60px;
+height:80px;
+ background: url('../images/epion-icon.png')no-repeat;
+ background-repeat: no-repeat;
+}
+#EagleView ul  {
+    padding-left: 20px;
+}
+.img-responsive{
+	margin: 0 auto;
+}
+.speakers-wrapper img{
+ -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  background-repeat: no-repeat;
+      border: 4px solid #fff;
+}
+.imgborder{
+ -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  background-repeat: no-repeat;
+      border: 4px solid #fff;
+}
+#epionBrand img{
+	width:60%;
+}
+
+
+@media screen and (min-width: 768px){
+
+.Innermarpad{
+  margin:0px 20px;
+  padding: 30px;
+     
+}
+
+.carousel-indicators {
+    bottom: 80px!important;
+}
+
+.section-title {
+    margin-bottom: 32px;
+    text-align: center;
+    background-color: #04bbf0;
+	background-image: linear-gradient(to bottom right,#00b0f9,#04bbf0);
+   min-width: 20%;
+	max-width:40%;
+    margin: 0 auto;
+    border-radius: 15px;
+	    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 26%);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	    margin-bottom: 4rem;
+    
+}
+.section-title  h3{
+color:#fff;
+font-size:20px;
+padding: 10px;
+}
+}
+
+#coreValue ul li {
+  background-color: #8fce00;
+  padding: 8px;
+  width: 80%;
+  color: #ffff83;
+  margin-bottom: 5px;
+  list-style-type: none;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to bottom right, #8fce00, #03a900);
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+.csrbg{
+
+ background: url('../images/csr-bg.jpg')  no-repeat;
+  
+    background-position: center center;
+ }
+ #myCarousel{
+	    margin-top: 115px;
+ }
+ .productType{
+ background-color:#e6f9ff;
+ text-align:center;
+ font-weight:bold;
+ }
+ .table tr th, tr td{
+ text-align:left;
+ }
+  .table tr td img{
+ width:30px;
+ }
+
+ .panel-group{
+  border: 1px solid #eee;
+}
+.panel-default{
+  border: 0;
+}
+.panel-group .panel{
+  border-radius: 0;
+}
+.panel-group .panel+.panel{
+  margin-top: 0;
+}
+
+.panel-default>.panel-heading{
+  background-color: transparent;
+  border-top: 1px solid #eee;
+}
+
+.panel-group .panel-default:first-child>.panel-heading{
+  border-top: 0;
+}
+
+.panel-default>.panel-heading+.panel-collapse .panel-body{
+  border-top-color: #eee;
+}
+.backButton{
+  position:absolute;
+  left:10px;
+  top: 10px;
+  width:26px;
+}
+
+@media only screen and (min-width:786px) {
+  #detail, #video,
+#VisinMission, #csr,
+#program,#ReserchDevelop,#Manufacturing,
+#sponsors, #EagleView,#epionBrand,#coreValue,
+#contact,#keyperson{
+       padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+  .whiteTopbg{
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 1px 6px 8px #d2d2d2;
+    padding: 50px 50px 30px 50px;
+    float:left;
+    width:100%;
+  }
+  article h1,
+article h2,
+article h3,
+article h4,
+article p{
+   padding: 16px;
+   color: #171717;
+}
+main{
+  background: #fff;
+  padding: 20px;
+  
+}
+  }
+
+  @media only screen and (max-width:786px) {
+    #detail, #video,
+#VisinMission, #csr,
+#program,#ReserchDevelop,#Manufacturing,
+#sponsors, #EagleView,#epionBrand,#coreValue,
+#contact,#keyperson{
+       padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+    .whiteTopbg{
+      background-color: rgba(255,255,255,0.8);
+      box-shadow: 1px 6px 8px #d2d2d2;
+      padding: 20px 20px 15px 20px;
+      float:left;
+      width:100%;
+
+  }
+
+  article h1,
+article h2,
+article h3,
+article h4,
+article p{
+   padding: 0px;
+   color: #171717;
+}
+
+main{
+  background: #fff;
+  padding: 10px;
+  
+}
+
+}

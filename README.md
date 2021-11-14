@@ -1,14 +1,14 @@
-# website_html_css_javascript_source_code_scraper-
+## website_html_css_javascript_source_code_scraper-
 
-Step 1:
+**Step 1:**
 npm install website-scraper
 
-Step 2:
+**Step 2:**
 create a js file (e.g. index.js)
 
-Step 3:
+**Step 3:**
 write the following codes in that js file.
-
+```
   const scrape = require('website-scraper');
   const websiteUrl = 'http://your_website_name.com/';
 
@@ -27,8 +27,8 @@ write the following codes in that js file.
   }).catch((err) => {
       console.log("An error ocurred", err);
   });
-  
-  Step 4:
+```
+  **Step 4:**
   node index.js
 
 P.S. This will take several times to download all the files.
